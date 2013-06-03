@@ -539,6 +539,8 @@
     <string name="build_number" msgid="3075795840572241758">"版本号"</string>
     <string name="mod_version">修订版本</string>
     <string name="mod_version_default">未知</string>
+        <!-- About phone screen,  setting option name-->
+    <string name="build_date">编译日期</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"不可用"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"状态消息"</string>
     <string name="device_status" msgid="607405385799807324">"状态消息"</string>
@@ -910,8 +912,13 @@
     <string name="builtin_keyboard_settings_summary" msgid="7990296351888096836">"内置物理键盘设置"</string>
     <string name="development_settings_title" msgid="6719732334835420989">"开发"</string>
     <string name="development_settings_summary" msgid="2151320488701538355">"设置应用程序开发选项"</string>
-    <string name="enable_adb" msgid="7982306934419797485">"USB 调试"</string>
     <string name="enable_adb_summary" msgid="4881186971746056635">"连接 USB 后启用调试模式"</string>
+        <!-- Setting checkbox title for Whether debugging should run over USB and Network. -->
+    <string name="adb_over_network">网络调试模式</string>
+    <!-- Setting checkbox summary for Whether to enable network debugging support -->
+    <string name="adb_over_network_summary">通过网络（如：WIFI）取代USB使用调试模式。注：重启后恢复。</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告: 当网络调试模式开启时，您的电话将启用包括GSM/CDMA网络在内的所有网络。\n\n请仅在可信网络下使用。\n\n确定启用此项功能吗?</string>
     <string name="adb_notify">USB 调试通知</string>
     <string name="adb_notify_summary">当 USB 调试连接时显示通知</string>
     <string name="keep_screen_on" msgid="1146389631208760344">"保持唤醒状态"</string>
@@ -1465,4 +1472,19 @@
 
     <!-- Unlock finger settings screen, change unlock finger screen countdown hint on bottom of screen when the screen is locked out -->
     <string name="lockfinger_lockout_countdown_footer">请在 %d 秒内重试。</string>
+    
+    <string name="increasing_ring_title">来电音量逐步增强</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increas in volume -->
+    <string name="checkbox_increasing_ring">开启</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">来电初始音量</string>
+    <string name="increasing_ring_volume_notice">警告:\n当设置的初始音量超过铃声音量时，按照设置的铃声音量为准.</string>
+    <string name="increasing_ring_interval_title">间隔时间</string>
+    <string name="increasing_ring_interval_eachring">所有</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
 </resources>
