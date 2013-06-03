@@ -2088,6 +2088,12 @@
     <string name="enable_adb_summary" msgid="4881186971746056635">"連接 USB 時進入偵錯模式"</string>
     <!-- Setting checkbox title for displaying USB debugging notification -->
     <string name="adb_notify">USB 偵錯通知</string>
+        <!-- Setting checkbox title for Whether debugging should run over USB and Network. -->
+    <string name="adb_over_network">網絡偵錯模式</string>
+    <!-- Setting checkbox summary for Whether to enable network debugging support -->
+    <string name="adb_over_network_summary">通過網絡（如：WIFI）取代USB使用偵錯模式。注：重啟后恢復。</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告: 當網絡偵錯模式開啟時，您的電話將啟用包括GSM/CDMA在內的所有網絡。\n\n請僅在可信網絡下使用。\n\n確定啟用此項功能嗎？</string>
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify_summary">連接至 USB 偵錯模式時顯示通知</string>
     <!-- Setting Checkbox title whether to keep the screen on when plugged in to a power source -->
@@ -3067,4 +3073,18 @@
 
     <!-- Unlock finger settings screen, change unlock finger screen countdown hint on bottom of screen when the screen is locked out -->
     <string name="lockfinger_lockout_countdown_footer">請在 %d 秒內再試一次。</string>
+        <string name="increasing_ring_title">來電音量逐步增強</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increas in volume -->
+    <string name="checkbox_increasing_ring">開啟</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">來電初始音量</string>
+    <string name="increasing_ring_volume_notice">警告:\n當設置的初始音量超過鈴聲音量時，按照設置的鈴聲音量為準。</string>
+    <string name="increasing_ring_interval_title">間隔時間</string>
+    <string name="increasing_ring_interval_eachring">所有</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
 </resources>
