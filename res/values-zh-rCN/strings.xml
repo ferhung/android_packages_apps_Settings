@@ -912,8 +912,9 @@
     <string name="builtin_keyboard_settings_summary" msgid="7990296351888096836">"内置物理键盘设置"</string>
     <string name="development_settings_title" msgid="6719732334835420989">"开发"</string>
     <string name="development_settings_summary" msgid="2151320488701538355">"设置应用程序开发选项"</string>
+    <string name="enable_adb" msgid="7982306934419797485">"USB 调试"</string>
     <string name="enable_adb_summary" msgid="4881186971746056635">"连接 USB 后启用调试模式"</string>
-        <!-- Setting checkbox title for Whether debugging should run over USB and Network. -->
+    <!-- Setting checkbox title for Whether debugging should run over USB and Network. -->
     <string name="adb_over_network">网络调试模式</string>
     <!-- Setting checkbox summary for Whether to enable network debugging support -->
     <string name="adb_over_network_summary">通过网络（如：WIFI）取代USB使用调试模式。注：重启后恢复。</string>
